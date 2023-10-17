@@ -10,6 +10,11 @@ class BookingPage extends StatefulWidget {
 class _BookingPageState extends State<BookingPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Booking Page"),
+        centerTitle: true,
+      ),
+    );
   }
 }
